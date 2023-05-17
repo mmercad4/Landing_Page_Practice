@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 150px;
+}
+
+.header_logo {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.header_links ul {
+  font-size: 18px;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+ul {
+  list-style: none;
+}
+
+.hero-container {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 150px;
+}
+
+.hero-header {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.hero-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-left button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border: none;
+  padding: 10px 40px;
+  border-radius: 5%;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.information-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.information-header {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1f2937;
+  margin: 50px 0px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 5%;
+}
+
+.card > p {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.card {
+  text-align: center;
+  max-width: 250px;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  padding: 100px;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: 500;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.author {
+  font-size: 25px;
+  font-weight: bolder;
+  color: black;
+  text-align: right;
+  margin-top: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+}
+
+.call-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882f6;
+  padding: 50px 100px;
+  border-radius: 1%;
+  gap: 100px;
+}
+
+.call-header > h6 {
+  font-size: 25px;
+  font-weight: bolder;
+  color: white;
+}
+
+.call-header > p {
+  color: white;
+}
+
+button {
+  border-color: white;
+  background-color: #3882f6;
+  color: white;
+  width: 100px;
+  height: 30px;
+  border-width: 2px;
+  font-weight: bolder;
+  box-shadow: none;
+  border-radius: 5%;
+}
